@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: pdf
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://111.231.197.65:3306/admin_digitalcard?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=PRC
+    username: root
+    password: hykj388
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      min-idle: 5
+      max-active: 20
+
+#自定义的属性配置
+haoyong:
+  imageurl: D:/pubilcc/
+  serverurl: http://admin.easyong.cn/classplate-API/api/public/
+server:
+  port: 8080
